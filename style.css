@@ -120,6 +120,14 @@ footer p {
   background-color: #1db954;
 }
 
+.links a.captured:hover {
+  background-color: grey;
+}
+
+.links a.projects:hover {
+  background-color: navy;
+}
+
 .container {
   width: 90%;
   max-width: 600px;
