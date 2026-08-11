@@ -171,6 +171,24 @@ body h1 {
 
 @media (max-width: 600px) {
   body {
-    padding: 0 20px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: none;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .container a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
